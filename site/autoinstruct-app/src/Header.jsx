@@ -7,9 +7,10 @@ function Header() {
         <header>
             <h1>Autoinstruct: instant instructional videos.</h1>
             <nav id="header-nav">
-                <NavItem text="Home"/>
-                <NavItem text="About"/>
-                <NavItem text="Examples"/>
+                <NavItem text="Home" target="#"/>
+                <NavItem text="About" target="#"/>
+                <NavItem text="Examples" target="#"/>
+                <NavItem text="Source" target="https://github.com/sam-lb/autoinstruct"/>
             </nav>
         </header>
     );

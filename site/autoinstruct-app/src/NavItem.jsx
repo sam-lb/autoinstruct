@@ -1,9 +1,9 @@
 
 
-function NavItem({ text }) {
+function NavItem({ text, target }) {
     return (
         <div class="nav-item">
-            <a href="#">{ text }</a>
+            <a href={target}>{ text }</a>
         </div>
     );
 }
